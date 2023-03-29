@@ -1,0 +1,61 @@
+/* ヘッダー */
+header {
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+}
+
+/* メインコンテンツ */
+main {
+	margin: 20px auto;
+	max-width: 800px;
+	padding: 20px;
+}
+
+/* セクション */
+section {
+	margin-bottom: 30px;
+}
+
+/* セクションタイトル */
+section h2 {
+	font-size: 24px;
+	margin-bottom: 10px;
+}
+
+/* 自己紹介文 */
+section p {
+	line-height: 1.5;
+	margin-bottom: 20px;
+}
+
+/* 画像 */
+section img {
+	display: block;
+	margin: 0 auto;
+	max-width: 100%;
+}
+
+/* リスト */
+ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+/* リストアイテム */
+li {
+	margin-bottom: 10px;
+}
+
+/* リンク */
+a {
+	color: #333;
+	text-decoration: none;
+}
+
+/* リンク（ホバー時） */
+a:hover {
+	text-decoration: underline;
+}

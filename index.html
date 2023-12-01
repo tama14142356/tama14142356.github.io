@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>髙橋 那弥</title>
+</head>
+
+<body>
+    <div id="language-switcher" class="language-switcher">
+        <!-- <button id="en-btn">English</button>
+        <button id="ja-btn">日本語</button> -->
+        <button id="lang-btn">JA</button>
+    </div>
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="#about" data-en="About" data-ja="自己紹介">自己紹介</a>
+        <a href="#work" data-en="Work" data-ja="仕事">仕事</a>
+        <a href="#hobby" data-en="Hobby" data-ja="趣味">趣味</a>
+        <!-- <a href="#about" data-en="About" data-ja="自己紹介">自己紹介</a>
+        <a href="#work" data-en="Work" data-ja="仕事">仕事</a>
+        <a href="#hobby" data-en="Hobby" data-ja="趣味">趣味</a> -->
+    </div>
+    <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+    <!-- <span style="font-size:30px;cursor:pointer" onclick="openNav()" data-en="&#9776; Menu" data-ja="&#9776; 目次">&#9776; 目次</span> -->
+    <div id="main">
+        <h2 id="about">自己紹介</h2>
+        <p>ここに自己紹介を書きます。</p>
+        <h2 id="work">仕事</h2>
+        <div class="box">
+            <p>ここに仕事について書きます。</p>
+        </div>
+        <h2 id="hobby">趣味</h2>
+        <div class="box">
+            <p>ここに趣味について書きます。</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
